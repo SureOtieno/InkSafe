@@ -1,1 +1,3 @@
-Record your thought easily
+# InkSafe
+
+- Record your thought easily
