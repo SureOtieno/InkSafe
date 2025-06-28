@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1335</width>
-    <height>662</height>
+    <width>1338</width>
+    <height>702</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,14 +17,14 @@
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>520</y>
-      <width>88</width>
-      <height>26</height>
+      <x>20</x>
+      <y>620</y>
+      <width>121</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
-     <string>Save</string>
+     <string/>
     </property>
    </widget>
    <widget class="QLineEdit" name="tlineEdit">
@@ -32,42 +32,38 @@
      <rect>
       <x>20</x>
       <y>50</y>
-      <width>571</width>
+      <width>451</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Title your thoughts...</string>
     </property>
    </widget>
    <widget class="QTextEdit" name="entryTEdit">
     <property name="geometry">
      <rect>
-      <x>13</x>
-      <y>110</y>
-      <width>581</width>
-      <height>391</height>
+      <x>20</x>
+      <y>100</y>
+      <width>451</width>
+      <height>511</height>
      </rect>
     </property>
-   </widget>
-   <widget class="QListWidget" name="listWidget">
-    <property name="geometry">
-     <rect>
-      <x>655</x>
-      <y>51</y>
-      <width>631</width>
-      <height>551</height>
-     </rect>
+    <property name="placeholderText">
+     <string>Your thoughts here...</string>
     </property>
    </widget>
    <widget class="QLabel" name="entriesLabel">
     <property name="geometry">
      <rect>
-      <x>660</x>
-      <y>10</y>
+      <x>800</x>
+      <y>150</y>
       <width>161</width>
       <height>31</height>
      </rect>
     </property>
     <property name="text">
-     <string>My Entries</string>
+     <string>My Thoughts</string>
     </property>
    </widget>
    <widget class="QLabel" name="create_edit">
@@ -83,13 +79,179 @@
      <string>Create/Edit</string>
     </property>
    </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>190</y>
+      <width>521</width>
+      <height>421</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="searchLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>970</x>
+      <y>10</y>
+      <width>341</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Search title...</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="from">
+    <property name="geometry">
+     <rect>
+      <x>900</x>
+      <y>50</y>
+      <width>41</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>From:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="to">
+    <property name="geometry">
+     <rect>
+      <x>920</x>
+      <y>100</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>To:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="search">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>10</y>
+      <width>51</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Search:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="filterButton">
+    <property name="geometry">
+     <rect>
+      <x>1200</x>
+      <y>150</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Filter/Refresh</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dateFrom">
+    <property name="geometry">
+     <rect>
+      <x>970</x>
+      <y>50</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dateTo">
+    <property name="geometry">
+     <rect>
+      <x>970</x>
+      <y>100</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="recordButton">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>100</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Record</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="recordingLabel">
+    <property name="geometry">
+     <rect>
+      <x>500</x>
+      <y>10</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Record Thoughts</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="playButton">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>190</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Play</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="audioTitle">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>50</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Title your thoughts...</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="audioSlider">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>160</y>
+      <width>281</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="maximum">
+     <number>100</number>
+    </property>
+    <property name="pageStep">
+     <number>1</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1335</width>
+     <width>1338</width>
      <height>23</height>
     </rect>
    </property>

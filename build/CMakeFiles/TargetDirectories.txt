@@ -1,0 +1,9 @@
+/home/suleiman/InkSafe/build/CMakeFiles/InkSafe.dir
+/home/suleiman/InkSafe/build/CMakeFiles/edit_cache.dir
+/home/suleiman/InkSafe/build/CMakeFiles/rebuild_cache.dir
+/home/suleiman/InkSafe/build/CMakeFiles/list_install_components.dir
+/home/suleiman/InkSafe/build/CMakeFiles/install.dir
+/home/suleiman/InkSafe/build/CMakeFiles/install/local.dir
+/home/suleiman/InkSafe/build/CMakeFiles/install/strip.dir
+/home/suleiman/InkSafe/build/CMakeFiles/InkSafe_autogen_timestamp_deps.dir
+/home/suleiman/InkSafe/build/CMakeFiles/InkSafe_autogen.dir

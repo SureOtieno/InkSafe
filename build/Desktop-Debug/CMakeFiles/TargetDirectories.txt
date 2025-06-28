@@ -1,0 +1,5 @@
+/home/suleiman/InkSafe/build/Desktop-Debug/CMakeFiles/InkSafe.dir
+/home/suleiman/InkSafe/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/suleiman/InkSafe/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/suleiman/InkSafe/build/Desktop-Debug/CMakeFiles/InkSafe_autogen_timestamp_deps.dir
+/home/suleiman/InkSafe/build/Desktop-Debug/CMakeFiles/InkSafe_autogen.dir

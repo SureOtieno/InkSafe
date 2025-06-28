@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+d615abe6aa6c8528df7e61c9f7583eb9 CMakeFiles/InkSafe_autogen
+d615abe6aa6c8528df7e61c9f7583eb9 CMakeFiles/InkSafe_autogen_timestamp_deps
+78ea38da986219d9c2309e68f8d7ddc4 InkSafe_autogen/timestamp

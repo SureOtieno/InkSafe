@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "InkSafe",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "InkSafe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InkSafe-Debug-04455de9e4450087c2b1.json",
+					"name" : "InkSafe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "InkSafe_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InkSafe_autogen-Debug-e8d754b99be44200341f.json",
+					"name" : "InkSafe_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "InkSafe_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-InkSafe_autogen_timestamp_deps-Debug-dd57c5aad0ee3264d3fc.json",
+					"name" : "InkSafe_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/suleiman/InkSafe/build/Desktop-Debug",
+		"source" : "/home/suleiman/InkSafe"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
